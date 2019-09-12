@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Css/nutriman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    <title>Nutrimann</title>
+</head>
+<body>
+<header>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="recomendacionesfitness.html">Bajar de peso</a></li>
+        <li><a href="#!">Mejorar masa muscular</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Recetas</a></li>
+      </ul>
+      <nav>
+        <div class="nav-wrapper deep-orange">
+          <a href="Fitness2.html" class="brand-logo">
+            <img src="nutrimann/logo.png" alt="" height="50px">
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="quienesnutriman.html">¿Quien es nutriman?</a></li>
+            <li><a href="asesorianutriman.html">Asesoría personalizada</a></li>
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Recomendaciones<i class="material-icons right">arrow_drop_down</i></a></li>
+          </ul>
+        </div>
+      </nav>
+    
+</header>
+<main>
+
+  <h1 class="tituloasesoria">Inscribete para recibir tu asesoria personalizada por un nutricionista profesional de manera <br>online y al precio mas economico!<br></h1>
+
+    <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Escribe aquí tu nombre" id="first_name" type="text" class="validate">
+              <label for="first_name">Necesito algunos datos personales tuyos...</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Escribe aquí tu apellido</label>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Escribe aqui tu peso</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Escbribe aquí tu altura</label>
+            </div>
+          </div>
+          <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <label for="textarea1">Escribe aquí a que cosas te dedicas</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="row">
+                <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <label for="textarea1">Escribe aquí si presentas alguna patologia o tomas algun medicamento, mencionandolo</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+          <div class="row">
+              <form class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">mode_edit</i>
+                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <label for="icon_prefix2">Cuentame aquí que es lo que deseas</label>
+                  </div>
+                </div>
+              </form>
+            </div>
+          <div class="row">
+            <div class="col s12">
+              Ahora escribe aqui tu email o numero de whatsapp donde quieres recibir tu asesoría:
+              <div class="input-field inline">
+                <input id="email_inline" type="email" class="validate">
+                <label for="email_inline">Ej: Nutriman@email.com - +573101010101</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Nutiman se comunicará contigo lo más pronto posible!</span>
+              </div>
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Pedír asesoría
+              <i class="material-icons right">send</i>
+            </button>
+        </form>
+        
+      </div>
+  
+    
+ 
+</main>
+<script src="jquery-3.3.1.min/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    
+    </script>
+    <script type="text/javascript"> 
+    $(document).ready(function(){
+        $('.slider').slider();
+      });
+      $(".dropdown-trigger").dropdown();
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.brand-logo{
+    margin: 10px;
+}
+.row{
+    text-align: center;
+    margin: 15px;
+}
+
+.icono1{
+    font-size: 30px;
+
+}
+.icono2{
+    font-size: 30px;
+}
+.icono3{
+    font-size: 30px;
+}
+#casos{
+    font-size: 20px !important;
+    
+}
+
+.titulonutriman{
+    font-size: 30px;
+    text-align: center;
+}
+.titulonutriman span {
+    font-size: 50px;
+}
+
+.tituloasesoria{
+    font-size: 30px;
+    text-align: center;
+
+}
+.curri{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+#logoenquienes{
+
+    text-align: center;
+}
