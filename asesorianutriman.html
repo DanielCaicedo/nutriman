@@ -38,27 +38,27 @@
   <h1 class="tituloasesoria">Inscribete para recibir tu asesoria personalizada por un nutricionista profesional de manera <br>online y al precio mas economico!<br></h1>
 
     <div class="row">
-        <form class="col s12">
+        <form class="col s12" data-netlify="true">
           <div class="row">
             <div class="input-field col s6">
-              <input placeholder="Escribe aquí tu nombre" id="first_name" type="text" class="validate">
+              <input placeholder="Escribe aquí tu nombre" id="first_name" type="text" class="validate" name="nombre">
               <label for="first_name">Necesito algunos datos personales tuyos...</label>
             </div>
             <div class="input-field col s6">
-              <input id="last_name" type="text" class="validate">
+              <input id="last_name" type="text" class="validate" name="apellido">
               <label for="last_name">Escribe aquí tu apellido</label>
             </div>
           </div>
         
           <div class="row">
             <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
+              <input id="password" type="password" class="validate" name="peso">
               <label for="password">Escribe aqui tu peso</label>
             </div>
           </div>
           <div class="row">
             <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
+              <input id="email" type="email" class="validate" name="altura">
               <label for="email">Escbribe aquí tu altura</label>
             </div>
           </div>
@@ -66,7 +66,7 @@
               <form class="col s12">
                 <div class="row">
                   <div class="input-field col s12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <textarea id="textarea1" class="materialize-textarea" name="hobby"></textarea>
                     <label for="textarea1">Escribe aquí a que cosas te dedicas</label>
                   </div>
                 </div>
@@ -76,7 +76,7 @@
                 <form class="col s12">
                   <div class="row">
                     <div class="input-field col s12">
-                      <textarea id="textarea1" class="materialize-textarea"></textarea>
+                      <textarea id="textarea1" class="materialize-textarea" name="patologia"></textarea>
                       <label for="textarea1">Escribe aquí si presentas alguna patologia o tomas algun medicamento, mencionandolo</label>
                     </div>
                   </div>
@@ -87,7 +87,7 @@
                 <div class="row">
                   <div class="input-field col s6">
                     <i class="material-icons prefix">mode_edit</i>
-                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                    <textarea id="icon_prefix2" class="materialize-textarea" name="deseo"></textarea>
                     <label for="icon_prefix2">Cuentame aquí que es lo que deseas</label>
                   </div>
                 </div>
@@ -97,13 +97,13 @@
             <div class="col s12">
               Ahora escribe aqui tu email o numero de whatsapp donde quieres recibir tu asesoría:
               <div class="input-field inline">
-                <input id="email_inline" type="email" class="validate">
+                <input id="email_inline" type="email" class="validate" name="mail">
                 <label for="email_inline">Ej: Nutriman@email.com - +573101010101</label>
                 <span class="helper-text" data-error="wrong" data-success="right">Nutiman se comunicará contigo lo más pronto posible!</span>
               </div>
             </div>
           </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Pedír asesoría
+          <button class="btn waves-effect waves-light" type="submit">Pedír asesoría
               <i class="material-icons right">send</i>
             </button>
         </form>
